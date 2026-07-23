@@ -1,8 +1,29 @@
 aid: avision
 name: Avision
-description: Avision is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Avision is airspace infrastructure for drone and Advanced Air Mobility operations.
+  The platform delivers FAA airspace services — LAANC flight authorizations, B4UFLY
+  airspace awareness, TFRs, NOTAMs, and advisory information — alongside UTM / U-space
+  coordination and prioritization for safely integrating uncrewed aircraft into national
+  airspace. Avision serves commercial Part 107 pilots, recreational (Section 44809)
+  flyers, public-safety and first-responder agencies, airports, and critical-infrastructure
+  operators through web and mobile apps, with a flexible REST API integration offered
+  to enterprise customers and drone manufacturers. The company holds an FAA LOA for
+  BVLOS operations and has completed a UTM production rollout in Switzerland.
 url: https://raw.githubusercontent.com/api-evangelist/avision/refs/heads/main/apis.yml
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://avision.io/wp-content/uploads/2022/05/Avision_LAANC-2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,21 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Drones
+- UAS
+- UTM
+- U-space
+- Airspace
+- LAANC
+- B4UFLY
+- FAA
+- Aviation
+- Public Safety
+- Advanced Air Mobility
+- BVLOS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,28 @@ maintainers:
 common:
 - type: Website
   url: https://avision.io
+- type: Products
+  url: https://avision.io/products/
+- type: Pricing
+  url: https://avision.io/pricing/
+- type: Blog
+  url: https://avision.io/blog/
+- type: BlogRSS
+  url: https://avision.io/feed/
+- type: Support
+  url: https://help.avision.io
+- type: SignUp
+  url: https://app.avision.io/sign-up
+- type: TermsOfService
+  url: https://avision.io/terms/
+- type: PrivacyPolicy
+  url: https://avision.io/privacy-policy/
+- type: Plans
+  url: plans/avision-plans.yml
+- type: DomainSecurity
+  url: security/avision-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

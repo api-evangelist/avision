@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://avision.io/pricing/
+currency: USD
+plans:
+- name: Basic
+  price: 0
+  interval: month
+  summary: Free plan for recreational drone pilots.
+  features:
+  - Recreational LAANC (Section 44809)
+  - Mission planning
+  - Web and mobile apps
+- name: Pro
+  price: 10
+  interval: month
+  summary: Commercial plan for Part 107 pilots.
+  features:
+  - Everything in Basic
+  - Commercial LAANC (Part 107)
+  - Terrain following
+- name: Enterprise
+  price: null
+  interval: custom
+  summary: Contact sales; advanced team and operational tooling.
+  features:
+  - Everything in Pro
+  - Team Management
+  - Live Video Streaming
+  - UTM / U-space Services
+  - REST API integration
